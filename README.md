@@ -2,6 +2,15 @@
 
 Command line utility to retrieve a single secret from an Azure keyvault.
 
+## Installation
+
+```bash
+go get github.com/foryouandyourcustomers/kvget/cmd/kvget
+```
+
+or download the latest release.
+
+
 ## Usage
 
 ```bash
