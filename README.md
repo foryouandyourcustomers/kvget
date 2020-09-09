@@ -2,13 +2,6 @@
 
 Command line utility to retrieve a single secret from an Azure keyvault.
 
-## Installation
-
-Either download one of the releases and add it to your path or install it with go get.
-```bash
-
-```
-
 ## Usage
 
 ```bash
