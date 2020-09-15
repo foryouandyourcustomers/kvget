@@ -13,7 +13,7 @@ GO                        := GO111MODULE=on go
 build: build-linux build-macos build-windows
 
 build-linux:
-	GOOS=linux GOARCH=amd64 $(GO) build -o kvget.linux cmd/kvget/main.go
+	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 $(GO) build -o kvget.linux cmd/kvget/main.go
 
 build-macos:
 	GOOS=darwin GOARCH=amd64 $(GO) build -o kvget.macos cmd/kvget/main.go
